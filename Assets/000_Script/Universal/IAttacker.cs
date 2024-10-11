@@ -5,5 +5,8 @@ using UnityEngine;
 public interface IAttacker
 {
     void PrepareToAttack();
-    void DoSomethingToo();
+    void EventIfKillSomeone();
+    void InitWeapon(Weapon weaponToAttack);
+
 }
+ 

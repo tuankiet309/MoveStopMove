@@ -9,4 +9,8 @@ Dự kiến ngày 2
 +)Làm xong Enemy
 +)UI cơ bản
 +)3 game state cơ bản: start, ingame, end.
- 
+
+===11/10/2024===
++)Hoan thien gameplay pvp
++)GameManager + 4 state game
++)Lam duoc 1 so UI

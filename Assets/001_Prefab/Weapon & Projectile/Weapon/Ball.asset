@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67879944417d6b04eb3950f55891922d, type: 3}
+  m_Name: Ball
+  m_EditorClassIdentifier: 
+  weaponOnHand: {fileID: 1368756771899847681, guid: 6f2234ed44dd95f4f8cf9a3dac854f88,
+    type: 3}
+  weaponThrowAway: {fileID: 1880135427680586988, guid: cfdd873e6d7b22c47a414a7c7e90f346,
+    type: 3}
+  weaponOffsetPos: {x: 0, y: 0, z: 0}
+  weaponOffsetRot: {x: 0, y: 0, z: 0, w: 0}
+  weaponType: 0

@@ -6,15 +6,23 @@ using UnityEngine;
 public class DecorationObject : MonoBehaviour
 {
     [SerializeField] Renderer _renderer;
-    [SerializeField] float transparentValue;
+    Color originalColor;
+    private void Start()
+    {
+        originalColor = _renderer.material.color;
+    }
 
     public void ChangeTransparentValue(bool Check)
     {      
         Color color = _renderer.material.color;
         if (Check)
-            color.a = transparentValue;
+        {
+            color = new Color(0,0,0,CONSTANT_VALUE.DECORATION_TRANPARENT_VALUE);
+        }
         else
-            color.a = 1.0f;
+        {
+            color = originalColor;
+        }
         _renderer.material.color = color;
     }
 }
